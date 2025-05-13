@@ -1,0 +1,236 @@
+/* Note: These styles use .screen-4 and .scene-4 selectors, 
+   matching the HTML you previously provided for scene-8. 
+   If you update the HTML classes to .screen-8 / .scene-8, 
+   these selectors will also need to be updated. */
+   .screen-4 {
+    background-color: #fffbeb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .screen-4 .scene-4 {
+    background-color: #fffbeb;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .screen-4 .overlap-2 {
+    position: absolute;
+    width: 1263px;
+    height: 806px;
+    top: 0;
+    left: 88px;
+  }
+  
+  .screen-4 .mlk-4 {
+    position: absolute;
+    width: 164px;
+    height: 165px;
+    top: 253px;
+    left: 568px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .frame-4 {
+    position: absolute;
+    width: 217px;
+    height: 216px;
+    top: 227px;
+    left: 542px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .rec-room-sign-4 {
+    position: absolute;
+    width: 660px;
+    height: 110px;
+    top: 82px;
+    left: 299px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .pool-table-4 {
+    position: absolute;
+    width: 236px;
+    height: 235px;
+    top: 514px;
+    left: 532px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .cisero-article-4 {
+    position: absolute;
+    width: 162px;
+    height: 219px;
+    top: 226px;
+    left: 852px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .willie-munson-4 {
+    position: absolute;
+    width: 216px;
+    height: 216px;
+    top: 226px;
+    left: 228px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .water-tank-4 {
+    position: absolute;
+    width: 78px;
+    height: 221px;
+    top: 507px;
+    left: 924px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .vending-machine-4 {
+    position: absolute;
+    width: 108px;
+    height: 225px;
+    top: 500px;
+    left: 1048px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .front-door-4 {
+    position: absolute;
+    width: 122px;
+    height: 238px;
+    top: 488px;
+    left: 106px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .frame-game-4 {
+    position: absolute;
+    width: 1263px;
+    height: 806px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .screen-4 .rico-4 {
+    position: absolute;
+    width: 95px;
+    height: 156px;
+    top: 569px;
+    left: 768px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .stick-4 {
+    position: absolute;
+    width: 19px;
+    height: 180px;
+    top: 549px;
+    left: 482px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .jean-5 {
+    position: absolute;
+    width: 119px;
+    height: 183px;
+    top: 544px;
+    left: 383px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .anthonyace-3 {
+    position: absolute;
+    width: 109px;
+    height: 188px;
+    top: 542px;
+    left: 245px;
+    object-fit: cover;
+  }
+  
+  .screen-4 .text-wrapper-8 { /* Scene Number "II" */
+    position: absolute;
+    width: 52px;
+    top: 14px;
+    left: 1369px;
+    font-family: 'Pixel Georgia', sans-serif; 
+    font-weight: 400;
+    font-style: normal; 
+    color: #58bf21;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .screen-4 .overlap-group-5 { /* Dialogue box container */
+    position: absolute;
+    width: 1228px;
+    height: 194px;
+    top: 821px;
+    left: 106px;
+    background-image: url(./img/rectangle-3-1.png); 
+    background-size: 100% 100%;
+  }
+  
+  .screen-4 .ace-icon-2 {
+    position: absolute;
+    width: 36px;
+    height: 48px;
+    top: 9px;
+    left: 16px;
+  }
+  
+  .screen-4 .text-wrapper-9 { /* Speaker: Anthony "Ace" */
+    position: absolute;
+    width: 519px;
+    top: 27px;
+    left: 63px;
+    font-family: 'Pixel Georgia', sans-serif; 
+    font-weight: 400;
+    font-style: normal; 
+    color: #493677;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen-4 .text-wrapper-10 { /* Dialogue: "You wish." */
+    position: absolute;
+    width: 1195px;
+    top: 73px;
+    left: 19px;
+    font-family: 'Pixel Georgia', sans-serif; 
+    font-weight: 400;
+    font-style: normal; 
+    color: #493677;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen-4 .text-wrapper-11 { /* Next arrow ">" */
+    position: absolute;
+    top: 136px; /* Adjust top/left if box size changes significantly affect overall position */
+    left: 1162px;
+    width: 60px;  /* UPDATED to fit larger font */
+    height: 60px; /* UPDATED to fit larger font */
+    font-family: 'Pixel Georgia', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #493677;
+    font-size: 60px; /* UPDATED font size - change this value as needed */
+    letter-spacing: 0;
+    white-space: nowrap;
+    /* Using flex to center the character in the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1; /* Good for precise control with flex centering */
+  }
+  
+  /* You might have had a .scene-4 .rectangle-3 rule here, 
+     if it's needed, ensure it's present. Based on your last paste, it wasn't included. */

@@ -1,0 +1,209 @@
+.dream {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dream .overlap-group-wrapper {
+  background-color: #ffffff; 
+  width: 1440px;
+  height: 1024px;
+}
+
+.dream .overlap-group {
+  position: relative;
+  width: 1435px;
+  height: 1024px;
+  left: 5px;
+}
+
+.dream .texture {
+  position: absolute;
+  width: 1435px;
+  height: 1015px;
+  top: 9px;
+  left: 0;
+  object-fit: cover;
+}
+
+.dream .dithered-image { 
+  position: absolute;
+  width: 1227px;
+  height: 196px;
+  top: 818px;
+  left: 101px;
+  object-fit: cover;
+}
+
+.dream .anthonyace { 
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  top: 823px;
+  left: 114px;
+}
+
+.dream .dither-background {
+  position: absolute;
+  width: 1254px;
+  height: 806px;
+  top: 0;
+  left: 88px;
+  object-fit: cover;
+}
+
+.dream .cisero-article {
+  position: absolute;
+  width: 162px;
+  height: 219px;
+  top: 226px;
+  left: 935px;
+  object-fit: cover;
+}
+
+.dream .dream-weaver-sign {
+  position: absolute;
+  width: 612px;
+  height: 102px;
+  top: 83px;
+  left: 377px;
+  object-fit: cover;
+}
+
+.dream .water-tank {
+  position: absolute;
+  width: 78px;
+  height: 221px;
+  top: 502px;
+  left: 945px;
+  object-fit: cover;
+}
+
+.dream .vending-dithered {
+  position: absolute;
+  width: 108px;
+  height: 226px;
+  top: 497px;
+  left: 1068px;
+  object-fit: cover;
+}
+
+.dream .front-door {
+  position: absolute;
+  width: 123px;
+  height: 241px;
+  top: 482px;
+  left: 198px;
+  object-fit: cover;
+}
+
+.dream .img { /* Refers to "Anthony Ace full body" image in HTML */
+  position: absolute;
+  width: 109px;
+  height: 189px;
+  top: 538px;
+  left: 423px;
+  object-fit: cover;
+}
+
+.dream .cisero {
+  position: absolute;
+  width: 119px;
+  height: 184px;
+  top: 514px;
+  left: 807px;
+  object-fit: cover;
+}
+
+.dream .dithered-table {
+  position: absolute;
+  width: 236px;
+  height: 236px;
+  top: 513px;
+  left: 572px;
+  object-fit: cover;
+}
+
+.dream .mlk-dithered {
+  position: absolute;
+  width: 224px;
+  height: 222px;
+  top: 216px;
+  left: 570px;
+  object-fit: cover;
+}
+
+
+
+.dream .character-name {
+  position: absolute;
+  width: 519px;
+  top: 844px; 
+  left: 166px;
+  font-family: 'Pixel Georgia', sans-serif; 
+  font-weight: 400;
+  font-style: normal; 
+  color: #7928d7;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dream .next-button { 
+  position: absolute;
+  width: 49px;
+  top: 957px; 
+  left: 1263px; 
+  font-family: 'Pixel Georgia', sans-serif; 
+  font-weight: 400;
+  font-style: normal;
+  color: #7928d7;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dream .character-dialogue { 
+  position: absolute;
+  width: 1195px;
+  top: 883px;
+  left: 117px; 
+  font-family: 'Pixel Georgia', sans-serif; 
+  font-weight: 400;
+  font-style: normal;
+  color: #7928d7;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* Accessibility improvements */
+.dream .next-button:focus,
+.dream .next-button:hover {
+  outline: 2px solid #7928d7;
+  border-radius: 4px;
+}
+
+/* Basic responsive adjustments */
+@media (max-width: 768px) {
+  .dream .overlap-group {
+    width: 100%;
+    left: 0;
+  }
+
+  .dream .character-name,
+  .dream .character-dialogue {
+    width: 90%;
+    left: 5%;
+  }
+
+  .dream .next-button {
+    left: auto; /* Adjust for smaller screens, perhaps */
+    right: 5%;
+  }
+}

@@ -1,0 +1,48 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Silkscreen:400"); /* For elements specifically using Silkscreen */
+
+/* Define the 'Pixel Georgia' font */
+@font-face {
+  font-family: 'Pixel Georgia';
+  /* This path assumes 'pixel-georgia.ttf' is in the SAME directory as this globals-batch2.css file. 
+     If it's elsewhere (e.g., a parent 'fonts' folder), adjust the path like url('../fonts/pixel-georgia.ttf'); */
+  src: url('pixel-georgia.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+/* Apply 'Pixel Georgia' as the default body font */
+body {
+  font-family: 'Pixel Georgia', sans-serif; /* ADDED 'Pixel Georgia' as default */
+  font-weight: 400; /* Corresponds to 'normal' in @font-face */
+  font-style: normal; /* Corresponds to 'normal' in @font-face */
+  /* Existing html,body rules for margin and height will still apply */
+}
+
+/* Apply 'Pixel Georgia' as the default paragraph font */
+p {
+  font-family: 'Pixel Georgia', sans-serif; /* ADDED 'Pixel Georgia' for paragraphs */
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,67 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Silkscreen:400"); /* For specific elements using Silkscreen */
+
+/* Define the 'Pixel Georgia' font */
+@font-face {
+  font-family: 'Pixel Georgia';
+  /* CRITICAL: Ensure 'pixel-georgia.ttf' is in the same directory as this CSS file,
+     or adjust the path like url('../fonts/pixel-georgia.ttf') if it's elsewhere. */
+  src: url('pixel-georgia.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%; /* Moved from html, body for singular body rule below */
+}
+
+body {
+  font-family: 'Pixel Georgia', sans-serif; /* Default custom font */
+  font-weight: 400;                         /* Default weight for Pixel Georgia */
+  font-style: normal;                        /* Default style for Pixel Georgia */
+  line-height: 1.5;                          /* Improved readability */
+  color: #333;                               /* Default text color for contrast */
+  background-color: #fff;                    /* Default background color */
+  margin: 0px;                               /* Reset margin */
+  height: 100%;                               /* Full height */
+}
+
+/* Apply 'Pixel Georgia' as the default paragraph font */
+p {
+  font-family: 'Pixel Georgia', sans-serif; /* Ensures paragraphs also default to this */
+  font-weight: 400;
+  font-style: normal;
+  /* Paragraphs will inherit line-height and color from body unless overridden */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Optional: makes links inherit text color unless specified */
+}
+
+/* Accessibility improvements */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+/* Improved focus styles for keyboard navigation */
+button:focus-visible, /* Combined from your original button:focus-visible */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #4a90e2 !important; /* Added !important from button:focus-visible */
+  outline-offset: 2px;
+}

@@ -1,0 +1,225 @@
+.screen-13 { /* UPDATED selector */
+  background-color: #fffbeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen-13 .scene-13 { /* UPDATED selector */
+  background-color: #fffbeb;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.screen-13 .overlap-group-7 { /* UPDATED selector */
+  position: absolute;
+  width: 1263px;
+  height: 806px;
+  top: 0;
+  left: 88px;
+}
+
+.screen-13 .mlk-4 { /* UPDATED selector */
+  position: absolute;
+  width: 164px;
+  height: 165px;
+  top: 253px;
+  left: 568px;
+  object-fit: cover;
+}
+
+.screen-13 .frame-4 { /* UPDATED selector */
+  position: absolute;
+  width: 217px;
+  height: 216px;
+  top: 227px;
+  left: 542px;
+  object-fit: cover;
+}
+
+.screen-13 .rec-room-sign-4 { /* UPDATED selector */
+  position: absolute;
+  width: 660px;
+  height: 110px;
+  top: 82px;
+  left: 299px;
+  object-fit: cover;
+}
+
+.screen-13 .pool-table-4 { /* UPDATED selector */
+  position: absolute;
+  width: 236px;
+  height: 235px;
+  top: 514px;
+  left: 532px;
+  object-fit: cover;
+}
+
+.screen-13 .cisero-article-8 { /* UPDATED selector */
+  position: absolute;
+  width: 162px;
+  height: 219px;
+  top: 226px;
+  left: 852px;
+  object-fit: cover;
+}
+
+.screen-13 .willie-munson-4 { /* UPDATED selector */
+  position: absolute;
+  width: 216px;
+  height: 216px;
+  top: 226px;
+  left: 228px;
+  object-fit: cover;
+}
+
+.screen-13 .water-tank-8 { /* UPDATED selector */
+  position: absolute;
+  width: 78px;
+  height: 221px;
+  top: 507px;
+  left: 924px;
+  object-fit: cover;
+}
+
+.screen-13 .vending-machine-4 { /* UPDATED selector */
+  position: absolute;
+  width: 108px;
+  height: 225px;
+  top: 500px;
+  left: 1048px;
+  object-fit: cover;
+}
+
+.screen-13 .front-door-8 { /* UPDATED selector */
+  position: absolute;
+  width: 122px;
+  height: 238px;
+  top: 488px;
+  left: 106px;
+  object-fit: cover;
+}
+
+.screen-13 .frame-game-4 { /* UPDATED selector */
+  position: absolute;
+  width: 1263px;
+  height: 806px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen-13 .rico-4 { /* UPDATED selector */
+  position: absolute;
+  width: 95px;
+  height: 156px;
+  top: 569px;
+  left: 768px;
+  object-fit: cover;
+}
+
+.screen-13 .stick-4 { /* UPDATED selector */
+  position: absolute;
+  width: 19px;
+  height: 180px;
+  top: 549px;
+  left: 482px;
+  object-fit: cover;
+}
+
+.screen-13 .jean-4 { /* UPDATED selector */
+  position: absolute;
+  width: 119px;
+  height: 183px;
+  top: 544px;
+  left: 383px;
+  object-fit: cover;
+}
+
+.screen-13 .anthonyace-9 { /* UPDATED selector */
+  position: absolute;
+  width: 109px;
+  height: 188px;
+  top: 542px;
+  left: 245px;
+  object-fit: cover;
+}
+
+.screen-13 .text-wrapper-20 { /* Scene indicator "II" */
+  position: absolute;
+  width: 52px;
+  top: 14px;
+  left: 1369px;
+  font-family: "Silkscreen", Helvetica, sans-serif; /* Keeping Silkscreen */
+  font-weight: 400;
+  font-style: normal; /* Ensuring consistency */
+  color: #58bf21;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen-13 .overlap-5 { /* UPDATED selector */
+  position: absolute;
+  width: 1228px;
+  height: 194px;
+  top: 819px;
+  left: 106px;
+  background-color: #fffbeb;
+  border: 4px solid;
+  border-color: #7d7def; /* Note: border color is different from some previous scenes */
+}
+
+.screen-13 .text-wrapper-21 { /* Dialogue paragraph */
+  position: absolute;
+  width: 1195px;
+  top: 63px; /* Relative to .overlap-5 */
+  left: 18px; /* Relative to .overlap-5 */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #7d7def;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen-13 .text-wrapper-22 { /* Next button ">" */
+  position: absolute;
+  width: 49px;
+  top: 134px; /* Relative to .overlap-5 */
+  left: 1158px; /* Relative to .overlap-5 */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #7d7def;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen-13 .rico-icon { /* UPDATED selector */
+  position: absolute;
+  width: 57px;
+  height: 41px;
+  top: 7px; /* Relative to .overlap-5 */
+  left: 12px; /* Relative to .overlap-5 */
+}
+
+.screen-13 .text-wrapper-23 { /* Speaker name */
+  position: absolute;
+  width: 519px;
+  top: 19px; /* Relative to .overlap-5 */
+  left: 67px; /* Relative to .overlap-5 */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #7d7def;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}

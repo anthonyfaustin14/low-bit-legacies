@@ -1,0 +1,176 @@
+.dream-weaver {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dream-weaver .dream-3 {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+
+.dream-weaver .overlap-group-4 {
+  position: relative;
+  width: 1435px;
+  height: 1024px;
+  left: 5px;
+}
+
+.dream-weaver .texture-3 {
+  position: absolute;
+  width: 1435px;
+  height: 1015px;
+  top: 9px;
+  left: 0;
+  object-fit: cover;
+}
+
+.dream-weaver .dithered-image-3 {
+  position: absolute;
+  width: 1227px;
+  height: 196px;
+  top: 818px;
+  left: 101px;
+  object-fit: cover;
+}
+
+.dream-weaver .text-wrapper-10 {
+  position: absolute;
+  width: 1195px;
+  top: 883px;
+  left: 117px;
+  font-family: "Pixel Georgia-Regular", Helvetica;
+  font-weight: 400;
+  color: #969696;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dream-weaver .text-wrapper-11 {
+  position: absolute;
+  width: 49px;
+  top: 957px;
+  left: 1263px;
+  font-family: "Pixel Georgia-Regular", Helvetica;
+  font-weight: 400;
+  color: #7928d7;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.dream-weaver .text-wrapper-12 {
+  position: absolute;
+  width: 519px;
+  top: 844px;
+  left: 166px;
+  font-family: "Pixel Georgia-Regular", Helvetica;
+  font-weight: 400;
+  color: #969696;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dream-weaver .dither-background-3 {
+  position: absolute;
+  width: 1254px;
+  height: 806px;
+  top: 0;
+  left: 88px;
+  object-fit: cover;
+}
+
+.dream-weaver .cisero-article-4 {
+  position: absolute;
+  width: 162px;
+  height: 219px;
+  top: 226px;
+  left: 935px;
+  object-fit: cover;
+}
+
+.dream-weaver .dream-weaver-sign-3 {
+  position: absolute;
+  width: 612px;
+  height: 102px;
+  top: 83px;
+  left: 377px;
+  object-fit: cover;
+}
+
+.dream-weaver .water-tank-4 {
+  position: absolute;
+  width: 78px;
+  height: 221px;
+  top: 502px;
+  left: 945px;
+  object-fit: cover;
+}
+
+.dream-weaver .vending-dithered-3 {
+  position: absolute;
+  width: 108px;
+  height: 226px;
+  top: 497px;
+  left: 1068px;
+  object-fit: cover;
+}
+
+.dream-weaver .front-door-4 {
+  position: absolute;
+  width: 123px;
+  height: 241px;
+  top: 482px;
+  left: 198px;
+  object-fit: cover;
+}
+
+.dream-weaver .anthonyace-5 {
+  position: absolute;
+  width: 109px;
+  height: 189px;
+  top: 538px;
+  left: 423px;
+  object-fit: cover;
+}
+
+.dream-weaver .cisero-3 {
+  position: absolute;
+  width: 119px;
+  height: 184px;
+  top: 514px;
+  left: 807px;
+  object-fit: cover;
+}
+
+.dream-weaver .cisero-4 {
+  position: absolute;
+  width: 39px;
+  height: 42px;
+  top: 831px;
+  left: 115px;
+}
+
+.dream-weaver .dithered-table-3 {
+  position: absolute;
+  width: 236px;
+  height: 236px;
+  top: 513px;
+  left: 572px;
+  object-fit: cover;
+}
+
+.dream-weaver .mlk-dithered-3 {
+  position: absolute;
+  width: 224px;
+  height: 222px;
+  top: 216px;
+  left: 570px;
+  object-fit: cover;
+}

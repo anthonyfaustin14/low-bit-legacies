@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>The Dream Weaver</title> <link rel="stylesheet" href="css/globals-batch-4.css" />
+    <link rel="stylesheet" href="css/styleguide-batch-4.css" />
+    <link rel="stylesheet" href="css/dream-weaver-12.css" />
+    <style>
+      /* Styles for the glitch overlay - same as before */
+      #glitchOverlay {
+        display: none; 
+        position: fixed; /* Cover the whole screen */
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: black; 
+        z-index: 9999;
+      }
+
+      #glitchOverlay img {
+        width: 100%; 
+        height: 100%;
+        object-fit: cover;
+      }
+
+     
+      .cisero-article-2, .mlk-dithered-2 {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dream-screen" data-model-id="56:517">
+      <div class="div-wrapper"> 
+        <div class="overlap-group-3">
+          <img class="texture-2" src="img/texture-2.png" />
+          <img class="dithered-image-2" src="img/dithered-image-22-1-2.png" />
+          <p class="CLICK-THE-PHOTO-TOGO">&gt;&nbsp;&nbsp; [ CLICK THE PHOTO TO GO BACK TO THE REC ]&nbsp;&nbsp; &lt;</p>
+          <img class="dither-background-2" src="img/dither-background-2.png" />
+
+          <a href="return-1.html" id="ciseroLink"> 
+            <img class="cisero-article-2" src="img/cisero-article-dithered.png" />
+          </a>
+
+          <img class="dream-weaver-sign-2" src="img/dream-weaver-sign-2.png" />
+          <img class="water-tank-2" src="img/water-tank-4.png" />
+          <img class="vending-dithered-2" src="img/vending-dithered-2.png" />
+          <img class="front-door-2" src="img/front-door-4.png" />
+          <img class="anthonyace-2" src="img/anthonyace-5.png" />
+          <img class="cisero-2" src="img/cisero-3.png" />
+          <img class="dithered-table-2" src="img/dithered-table-2.png" />
+
+          <a href="return-1.html" id="mlkLinkDreamPage"> 
+            <img class="mlk-dithered-2" src="img/mlk-dithered-2.png" />
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="glitchOverlay">
+      <img src="img/glitch.gif" alt="Glitch Effect" />
+    </div>
+
+    <script>
+      const glitchOverlay = document.getElementById('glitchOverlay');
+      const glitchDuration = 1500; // Duration in milliseconds (e.g., 1.5 seconds)
+
+      function playGlitchAndNavigate(destinationUrl) {
+        glitchOverlay.style.display = 'block'; 
+        setTimeout(function() {
+          glitchOverlay.style.display = 'none'; 
+          window.location.href = destinationUrl; 
+        }, glitchDuration);
+      }
+
+      const ciseroLink = document.getElementById('ciseroLink');
+      const mlkLinkDreamPage = document.getElementById('mlkLinkDreamPage');
+
+      if (ciseroLink) {
+        ciseroLink.addEventListener('click', function(event) {
+          event.preventDefault(); 
+          playGlitchAndNavigate(this.href); 
+        });
+      }
+
+      if (mlkLinkDreamPage) {
+        mlkLinkDreamPage.addEventListener('click', function(event) {
+          event.preventDefault(); 
+          playGlitchAndNavigate(this.href); 
+        });
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Rec Room NYC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguide.css" />
+    <link rel="stylesheet" href="css/scene-2.css" />
+
+    <style>
+      body {
+        opacity: 0;
+        transition: opacity 1.5s ease-in-out;
+      }
+    
+      body.fade-in {
+        opacity: 1;
+      }
+    
+      body.fade-out {
+        opacity: 0;
+      }
+    </style>
+    
+    <script>
+      // Fade in on page load
+      window.addEventListener("DOMContentLoaded", () => {
+        document.body.classList.add("fade-in");
+    
+        // Start fade-out after delay, then go to next scene
+        setTimeout(() => {
+          document.body.classList.remove("fade-in");
+          document.body.classList.add("fade-out");
+    
+          setTimeout(() => {
+            window.location.href = "scene-3.html";
+          }, 1500); // matches the fade-out duration
+        }, 2000); // delay before starting fade-out
+      });
+    </script>
+    
+  </head>
+  <body>
+    <div class="scene-screen" data-model-id="23:56">
+      <a href="scene-3.html"
+        ><div class="scene-2">
+          <div class="overlap-group-3">
+            <img class="mlk-2" src="img/mlk-6.png" />
+            <img class="frame-2" src="img/frame-8.png" />
+            <img class="rec-room-sign-2" src="img/rec-room-sign-8.png" />
+            <img class="pool-table-2" src="img/pool-table-8.png" />
+            <img class="cisero-article-2" src="img/cisero-article-8.png" />
+            <img class="willie-munson-2" src="img/willie-munson-8.png" />
+            <img class="water-tank-2" src="img/water-tank-8.png" />
+            <img class="vending-machine-2" src="img/vending-machine-8.png" />
+            <img class="anthonyace" src="img/anthonyace.png" />
+            <img class="front-door-2" src="img/front-door-8.png" />
+            <img class="frame-game-2" src="img/frame-game-8.png" />
+            <img class="rico-2" src="img/rico-9.png" />
+            <img class="stick-2" src="img/stick-8.png" />
+            <img class="jean-3" src="img/jean-9.png" />
+          </div>
+          
+          <div class="rectangle"></div></div
+      ></a>
+    </div>
+  </body>
+</html>

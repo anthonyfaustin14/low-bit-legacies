@@ -1,0 +1,173 @@
+.scene-screen {
+  background-color: #fffbeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.scene-screen .scene-2 {
+  background-color: #fffbeb;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.scene-screen .overlap-group-3 {
+  position: absolute;
+  width: 1263px;
+  height: 806px;
+  top: 0;
+  left: 88px;
+}
+
+.scene-screen .mlk-2 {
+  position: absolute;
+  width: 164px;
+  height: 165px;
+  top: 253px;
+  left: 568px;
+  object-fit: cover;
+}
+
+.scene-screen .frame-2 {
+  position: absolute;
+  width: 217px;
+  height: 216px;
+  top: 227px;
+  left: 542px;
+  object-fit: cover;
+}
+
+.scene-screen .rec-room-sign-2 {
+  position: absolute;
+  width: 660px;
+  height: 110px;
+  top: 82px;
+  left: 299px;
+  object-fit: cover;
+}
+
+.scene-screen .pool-table-2 {
+  position: absolute;
+  width: 236px;
+  height: 235px;
+  top: 514px;
+  left: 532px;
+  object-fit: cover;
+}
+
+.scene-screen .cisero-article-2 {
+  position: absolute;
+  width: 162px;
+  height: 219px;
+  top: 226px;
+  left: 852px;
+  object-fit: cover;
+}
+
+.scene-screen .willie-munson-2 {
+  position: absolute;
+  width: 216px;
+  height: 216px;
+  top: 226px;
+  left: 228px;
+  object-fit: cover;
+}
+
+.scene-screen .water-tank-2 {
+  position: absolute;
+  width: 78px;
+  height: 221px;
+  top: 507px;
+  left: 924px;
+  object-fit: cover;
+}
+
+.scene-screen .vending-machine-2 {
+  position: absolute;
+  width: 108px;
+  height: 225px;
+  top: 500px;
+  left: 1048px;
+  object-fit: cover;
+}
+
+.scene-screen .anthonyace {
+  position: absolute;
+  width: 109px;
+  height: 188px;
+  top: 542px;
+  left: 116px;
+  object-fit: cover;
+}
+
+.scene-screen .front-door-2 {
+  position: absolute;
+  width: 122px;
+  height: 238px;
+  top: 488px;
+  left: 106px;
+  object-fit: cover;
+}
+
+.scene-screen .frame-game-2 {
+  position: absolute;
+  width: 1263px;
+  height: 806px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.scene-screen .rico-2 {
+  position: absolute;
+  width: 95px;
+  height: 156px;
+  top: 569px;
+  left: 947px;
+  object-fit: cover;
+}
+
+.scene-screen .stick-2 {
+  position: absolute;
+  width: 19px;
+  height: 180px;
+  top: 547px;
+  left: 760px;
+  object-fit: cover;
+}
+
+.scene-screen .jean-3 {
+  position: absolute;
+  width: 119px;
+  height: 183px;
+  top: 544px;
+  left: 756px;
+  object-fit: cover;
+}
+
+.scene-screen .text-wrapper-4 {
+  position: absolute;
+  width: 52px;
+  top: 14px;
+  left: 1369px;
+  font-family: "Silkscreen", Helvetica;
+  font-weight: 400;
+  color: #58bf21;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.scene-screen .rectangle {
+  position: absolute;
+  width: 1228px;
+  height: 194px;
+  top: 819px;
+  left: 106px;
+  background-color: #fffbeb;
+  border: 4px solid;
+  border-color: #493677;
+}

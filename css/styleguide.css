@@ -1,0 +1,14 @@
+:root {
+  --variable-collection-rico: rgba(125, 125, 239, 1);
+  --variable-collection-color-2: rgba(125, 125, 239, 1);
+  --variable-collection-color-4: rgba(115, 115, 115, 1);
+}
+
+/* Removed body font style from here to avoid redundancy */
+/*
+body {
+  font-family: "argent-pixel-cf", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*/

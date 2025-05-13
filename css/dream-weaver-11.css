@@ -1,0 +1,187 @@
+.dream-weaver {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dream-weaver .dream-scene-11 { /* UPDATED selector to match HTML change */
+  background-color: #ffffff; /* Or #fffbeb if that's your typical canvas */
+  width: 1440px;
+  height: 1024px;
+  /* position: relative; /* Consider adding if .overlap-group-6 is absolutely positioned to this */
+}
+
+.dream-weaver .overlap-group-6 { /* This was .overlap-group-6 in HTML */
+  position: relative;
+  width: 1435px;
+  height: 1024px;
+  left: 5px;
+}
+
+.dream-weaver .texture-3 { /* Assuming texture-3 is used in scene 11 context */
+  position: absolute;
+  width: 1435px;
+  height: 1015px;
+  top: 9px;
+  left: 0;
+  object-fit: cover;
+}
+
+.dream-weaver .dithered-image-3 { /* Dialogue box background image */
+  position: absolute;
+  width: 1227px;
+  height: 196px;
+  top: 818px;
+  left: 101px;
+  object-fit: cover;
+}
+
+.dream-weaver .you-ve-given-me-more { /* Dialogue text */
+  position: absolute;
+  width: 1195px;
+  top: 883px; /* Position over .dithered-image-3 */
+  left: 117px; /* Position over .dithered-image-3 */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #7928d7; /* Kept original color */
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dream-weaver .text-wrapper-13 { /* Next button: ">" - styles moved from inline HTML */
+  position: absolute;
+  width: 49px;
+  top: 957px; /* Position over .dithered-image-3 */
+  left: 1263px; /* Position over .dithered-image-3 */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal;
+  color: #7928d7; /* Matched your CSS color, HTML inline was #493677. Adjust if needed. */
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  cursor: pointer;
+  text-decoration: none; /* Good for link text */
+  z-index: 999; /* From inline style */
+}
+
+.dream-weaver .text-wrapper-13:hover {
+  opacity: 0.7; /* From inline style */
+}
+
+.dream-weaver .text-wrapper-14 { /* Speaker name: "Anthony “Ace”:" */
+  position: absolute;
+  width: 519px;
+  top: 844px; /* Position over .dithered-image-3 */
+  left: 166px; /* Position over .dithered-image-3 */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #7928d7; /* Kept original color */
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dream-weaver .anthonyace-5 { /* This is the icon next to dialogue */
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  top: 823px; /* Position near speaker name, over .dithered-image-3 */
+  left: 114px; /* Position near speaker name, over .dithered-image-3 */
+}
+
+.dream-weaver .dither-background-3 {
+  position: absolute;
+  width: 1254px;
+  height: 806px;
+  top: 0;
+  left: 88px;
+  object-fit: cover;
+}
+
+.dream-weaver .cisero-article-5 { /* HTML has cisero-article-5, CSS had -3 before */
+  position: absolute;
+  width: 162px;
+  height: 219px;
+  top: 226px;
+  left: 935px;
+  object-fit: cover;
+}
+
+.dream-weaver .dream-weaver-sign-3 {
+  position: absolute;
+  width: 612px;
+  height: 102px;
+  top: 83px;
+  left: 377px;
+  object-fit: cover;
+}
+
+.dream-weaver .water-tank-5 { /* HTML has water-tank-5, CSS had -3 before */
+  position: absolute;
+  width: 78px;
+  height: 221px;
+  top: 502px;
+  left: 945px;
+  object-fit: cover;
+}
+
+.dream-weaver .vending-dithered-3 {
+  position: absolute;
+  width: 108px;
+  height: 226px;
+  top: 497px;
+  left: 1068px;
+  object-fit: cover;
+}
+
+.dream-weaver .front-door-5 { /* HTML has front-door-5, CSS had -3 before */
+  position: absolute;
+  width: 123px;
+  height: 241px;
+  top: 482px;
+  left: 198px;
+  object-fit: cover;
+}
+
+.dream-weaver .anthonyace-6 { /* HTML has anthonyace-6, CSS had -3 before */
+  position: absolute;
+  width: 109px;
+  height: 189px;
+  top: 538px;
+  left: 423px;
+  object-fit: cover;
+}
+
+.dream-weaver .cisero-3 { /* HTML has cisero-3, CSS rule is consistent */
+  position: absolute;
+  width: 119px;
+  height: 184px;
+  top: 514px;
+  left: 807px;
+  object-fit: cover;
+}
+
+.dream-weaver .dithered-table-3 {
+  position: absolute;
+  width: 236px;
+  height: 236px;
+  top: 513px;
+  left: 572px;
+  object-fit: cover;
+}
+
+.dream-weaver .mlk-dithered-3 {
+  position: absolute;
+  width: 224px;
+  height: 222px;
+  top: 216px;
+  left: 570px;
+  object-fit: cover;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>The Rec Room NYC</title>
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguide.css" />
+    <link rel="stylesheet" href="css/scene-1.css" />
+    <style>
+      body {
+        opacity: 1;
+        transition: opacity 1.5s ease-in-out;
+      }
+
+      body.fade-out {
+        opacity: 0;
+      }
+    </style>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+          document.body.classList.add("fade-out");
+          setTimeout(() => {
+            window.location.href = "scene-2.html";
+          }, 1500); // matches the transition duration
+        }, 2000); // initial delay
+      });
+    </script>
+  </head>
+  <body>
+    <div class="scene" data-model-id="6:3">
+      <div class="div-2">
+        <div class="overlap-group-2">
+          <img class="mlk" src="img/mlk-6.png" />
+          <img class="frame" src="img/frame-8.png" />
+          <img class="rec-room-sign" src="img/rec-room-sign-8.png" />
+          <img class="pool-table" src="img/pool-table-8.png" />
+          <img class="cisero-article" src="img/cisero-article-8.png" />
+          <img class="willie-munson" src="img/willie-munson-8.png" />
+          <img class="water-tank" src="img/water-tank-8.png" />
+          <img class="vending-machine" src="img/vending-machine-8.png" />
+          <img class="front-door" src="img/front-door-8.png" />
+          <img class="img" src="img/rico-9.png" />
+          <img class="frame-game" src="img/frame-game-8.png" />
+          <img class="stick" src="img/stick-8.png" />
+          <img class="jean-2" src="img/jean-9.png" />
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>

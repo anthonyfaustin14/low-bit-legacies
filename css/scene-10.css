@@ -1,0 +1,277 @@
+/* css/scene-10.css */
+
+/* Starting from your BEM styles section */
+.scene { 
+  background-color: #fffbeb; 
+  display: flex; 
+  justify-content: center; 
+  width: 100%; 
+  min-height: 100vh; 
+} 
+
+.rec-room { 
+  width: 1440px; 
+  height: 1024px; 
+  position: relative; 
+  background-color: #fffbeb; 
+} 
+
+.rec-room__background { 
+  position: absolute; 
+  width: 1263px; 
+  height: 806px; 
+  top: 0; 
+  left: 88px; 
+} 
+
+.rec-room__mlk { 
+  position: absolute; 
+  width: 164px; 
+  height: 165px; 
+  top: 253px; 
+  left: 568px; 
+  object-fit: cover; 
+} 
+
+.rec-room__frame { 
+  position: absolute; 
+  width: 217px; 
+  height: 216px; 
+  top: 227px; 
+  left: 542px; 
+  object-fit: cover; 
+} 
+
+.rec-room__sign { 
+  position: absolute; 
+  width: 660px; 
+  height: 110px; 
+  top: 82px; 
+  left: 299px; 
+  object-fit: cover; 
+} 
+
+.rec-room__pool-table { 
+  position: absolute; 
+  width: 236px; 
+  height: 235px; 
+  top: 514px; 
+  left: 532px; 
+  object-fit: cover; 
+} 
+
+.rec-room__cisero-article { 
+  position: absolute; 
+  width: 162px; 
+  height: 219px; 
+  top: 226px; 
+  left: 852px; 
+  object-fit: cover; 
+} 
+
+.rec-room__willie-munson { 
+  position: absolute; 
+  width: 216px; 
+  height: 216px; 
+  top: 226px; 
+  left: 228px; 
+  object-fit: cover; 
+} 
+
+.rec-room__water-tank { 
+  position: absolute; 
+  width: 78px; 
+  height: 221px; 
+  top: 507px; 
+  left: 924px; 
+  object-fit: cover; 
+} 
+
+.rec-room__vending-machine { 
+  position: absolute; 
+  width: 108px; 
+  height: 225px; 
+  top: 500px; 
+  left: 1048px; 
+  object-fit: cover; 
+} 
+
+.rec-room__front-door { 
+  position: absolute; 
+  width: 122px; 
+  height: 238px; 
+  top: 488px; 
+  left: 106px; 
+  object-fit: cover; 
+} 
+
+.rec-room__frame-game { 
+  position: absolute; 
+  width: 1263px; 
+  height: 806px; 
+  top: 0; 
+  left: 0; 
+  object-fit: cover; 
+} 
+
+.rec-room__rico { 
+  position: absolute; 
+  width: 95px; 
+  height: 156px; 
+  top: 569px; 
+  left: 768px; 
+  object-fit: cover; 
+} 
+
+.rec-room__stick { 
+  position: absolute; 
+  width: 19px; 
+  height: 180px; 
+  top: 549px; 
+  left: 384px; 
+  object-fit: cover; 
+} 
+
+.rec-room__jean { 
+  position: absolute; 
+  width: 119px; 
+  height: 183px; 
+  top: 544px; 
+  left: 383px; 
+  object-fit: cover; 
+} 
+
+.rec-room__anthonyace { 
+  position: absolute; 
+  width: 109px; 
+  height: 188px; 
+  top: 542px; 
+  left: 245px; 
+  object-fit: cover; 
+} 
+
+.scene-number { 
+  position: absolute; 
+  width: 52px; 
+  top: 14px; 
+  right: 19px; 
+  font-family: "Silkscreen", Helvetica, sans-serif; /* Keeping Silkscreen for scene number */
+  font-weight: 400; 
+  font-style: normal; /* Ensuring consistency */
+  color: #58bf21; 
+  font-size: 48px; 
+  line-height: 1; 
+  white-space: nowrap; /* Added to prevent wrap if width is tight */
+} 
+
+.dialogue-box { 
+  position: absolute; 
+  width: 1228px; 
+  height: 194px; 
+  bottom: 11px; 
+  left: 106px; 
+  background-color: #fffbeb; 
+  border: 4px solid #58bf21; 
+  padding: 25px 16px; 
+} 
+
+.dialogue-box__content { 
+  position: relative; 
+  height: 100%; 
+} 
+
+.dialogue-box__header { 
+  display: flex; 
+  align-items: center; 
+  gap: 12px; 
+  margin-bottom: 8px; 
+} 
+
+.dialogue-box__icon { 
+  /* position: absolute; /* This was in the old BEM, but flex item doesn't need it */
+  width: 36px; 
+  height: auto; /* Changed from 41px to auto for aspect ratio */
+  /* top: 9px; /* Not needed if flex item */
+  /* left: 12px; /* Not needed if flex item */
+} 
+
+.dialogue-box__speaker { 
+  /* position: absolute; /* Not needed if flex item in dialogue-box__header */
+  /* width: 519px; /* Width can be auto as a flex item */
+  /* top: 0; /* Not needed */
+  /* left: 49px; /* Not needed, gap handles spacing */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400; 
+  font-style: normal; 
+  color: #493677; /* This was the color in the last rule for this in your CSS */
+  font-size: 24px; 
+  line-height: 1.2; 
+  margin: 0; /* From your inline HTML style */
+} 
+
+.dialogue-box__text { 
+  /* position: absolute; /* This might be fine if dialogue-box__content is its offset parent */
+  /* width: 1195px; /* Check if this is needed or if it can flow */
+  /* top: 39px; /* Relative to dialogue-box__content */
+  /* left: 0; */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400; 
+  font-style: normal; 
+  color: #81af45; 
+  font-size: 36px; 
+  line-height: 1.2; 
+  /* Retaining existing layout properties. If it's part of normal flow after header, 
+     remove top/left/width and let it flow. If it must be positioned, keep them.
+     For now, keeping them as they were in your BEM CSS: */
+  position: absolute; 
+  width: 1195px; 
+  top: 39px; /* This assumes it's positioned relative to dialogue-box__content, after the header */
+  left: 0; 
+} 
+
+.dialogue-box__next { 
+  position: absolute; 
+  width: auto; /* Can be auto to fit content */
+  bottom: 0; 
+  right: 0; 
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400; 
+  font-style: normal; 
+  color: #81af45; 
+  font-size: 48px; 
+  line-height: 1; 
+  text-decoration: none; 
+} 
+
+.dialogue-box__next:hover, 
+.dialogue-box__next:focus { 
+  color: #58bf21; 
+  outline: none; 
+} 
+
+.dialogue-box__next:focus-visible { 
+  outline: 2px solid #4a90e2; 
+}
+
+/* In css/scene-10.css */
+.dialogue-box__header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.dialogue-box__icon {
+  width: 36px;
+  height: auto;
+  transform: translateY(-15px); /* Adjust this value */
+}
+
+.dialogue-box__speaker {
+  font-family: 'Pixel Georgia', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #81af45; /* Or #81af45 if you preferred that */
+  margin: 0;
+}

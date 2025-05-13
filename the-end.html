@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>The End</title> 
+    <link rel="stylesheet" href="css/globals-batch-4.css" /> <link rel="stylesheet" href="css/styleguide-batch-4.css" />
+    <link rel="stylesheet" href="css/the-end.css" />
+    <style>
+      /* Basic blinking cursor effect */
+      .typing-cursor::after {
+        content: '|';
+        display: inline-block;
+        animation: blink-caret 0.75s step-end infinite;
+        color: #ffffff; 
+      }
+
+      @keyframes blink-caret {
+        from, to { opacity: 1; }
+        50% { opacity: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="the-end" data-model-id="90:47">
+      <div class="div-2">
+        <div class="text-wrapper-3"></div> <div class="overlap-group-2">
+          <p class="p"></p> <p class="text-wrapper-4"></p> </div>
+      </div>
+    </div>
+
+    <script>
+      // --- START: PAGE-SPECIFIC TYPEWRITER CONFIGURATION ---
+      const typingJobs = [
+        { 
+          selector: '.text-wrapper-3', 
+          text: "The End", 
+          speed: 150, 
+          addCursor: false 
+        },
+        { 
+          selector: '.text-wrapper-4', // "Press E..." - Appears above "Press R..." in layout
+          text: "Press E to go back to Main Menu...", 
+          speed: 80, 
+          addCursor: false 
+        },
+        { 
+          selector: '.p', // "Press R..."
+          text: "Press R to Restart History...", 
+          speed: 80, 
+          addCursor: true // Add cursor to the last typed message
+        }
+      ];
+
+      const navigationConfig = {
+        KeyE: 'main-menu.html', 
+        KeyR: 'scene-1.html'   
+      };
+      
+      let allTypingComplete = false;
+      // --- END: PAGE-SPECIFIC TYPEWRITER CONFIGURATION ---
+
+      // --- CORE TYPEWRITER SCRIPT ---
+      function typewriterEffect(element, text, speed, callback) {
+        let i = 0;
+        element.innerHTML = ''; // Clear element before typing this specific text
+        
+        function type() {
+          if (i < text.length) {
+            element.innerHTML += text.charAt(i);
+            i++;
+            setTimeout(type, speed);
+          } else {
+            if (callback) callback();
+          }
+        }
+        type();
+      }
+
+      function processTypingJobs(jobs, index = 0) {
+        if (index < jobs.length) {
+          const job = jobs[index];
+          const element = document.querySelector(job.selector);
+
+          if (element) {
+            // Remove cursor from previous element if any
+            if (index > 0 && jobs[index-1].addCursor) {
+              const prevElement = document.querySelector(jobs[index-1].selector);
+              if (prevElement) prevElement.classList.remove('typing-cursor');
+            }
+
+            typewriterEffect(element, job.text, job.speed, () => {
+              if (job.addCursor) {
+                element.classList.add('typing-cursor');
+              }
+              processTypingJobs(jobs, index + 1); 
+            });
+          } else {
+            console.warn(`Typewriter target element with selector "${job.selector}" not found.`);
+            processTypingJobs(jobs, index + 1); 
+          }
+        } else {
+          allTypingComplete = true;
+          console.log("All typewriter effects complete. Keyboard navigation active.");
+       
+        }
+      }
+
+   
+      document.addEventListener('keydown', function(event) {
+        if (!allTypingComplete) {
+         
+          return; 
+        }
+
+        if (event.code === 'KeyE') {
+          console.log("E key pressed - Navigating to Main Menu");
+          window.location.href = navigationConfig.KeyE; 
+        } else if (event.code === 'KeyR') {
+          console.log("R key pressed - Navigating to Scene 1");
+          window.location.href = navigationConfig.KeyR;
+        }
+      });
+
+      // Start typing when the page loads
+      window.addEventListener('load', () => {
+        // Clear initial content from HTML before typing begins
+        typingJobs.forEach(job => {
+          const el = document.querySelector(job.selector);
+          if (el) el.innerHTML = '';
+        });
+        processTypingJobs(typingJobs);
+      });
+      // --- END: CORE TYPEWRITER SCRIPT ---
+    </script>
+  </body>
+</html>

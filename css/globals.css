@@ -1,0 +1,78 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* Removed @import url("https://fonts.googleapis.com/css?family=Silkscreen:400"); assuming Silkscreen is replaced */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400; /* Corresponds to 'normal' in @font-face */
+  font-style: normal; /* Corresponds to 'normal' in @font-face */
+}
+
+button:focus-visible, a:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+*:focus {
+  outline: 2px solid #4a90e2;
+}
+
+@media (forced-colors: active) {
+  * {
+    forced-color-adjust: none;
+  }
+}
+
+@font-face {
+  font-family: 'Pixel Georgia'; /* This is the name to use in your CSS */
+  /* src: url('pixel-georgia.ttf') should work if pixel-georgia.ttf is in the SAME css/ folder as this globals.css file */
+  src: url('pixel-georgia.ttf') format('truetype'); 
+  font-weight: normal; /* Default weight */
+  font-style: normal; /* Default style */
+}
+
+p {
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400; /* Or 'normal' */
+  font-style: normal;
+}
+/* Add this to your css/globals.css file */
+
+@font-face {
+  font-family: 'Kiwi Soda'; /* You can choose any name you like for the font */
+  src: url('kiwi-soda.ttf') format('truetype'); /* Path relative to this CSS file */
+  /* If kiwi-soda.ttf is a specific weight/style, you can define it here, e.g.: */
+  /* font-weight: normal; */
+  /* font-style: normal; */
+}
+
+/* ... rest of your globals.css content (like Meyer reset, body styles, etc.) ... */
+
+/* Ensure your body or relevant elements are styled with a fallback font too, 
+   and Pixel Georgia if that's still your default for other text */
+body {
+  font-family: 'Pixel Georgia', sans-serif; /* Example if Pixel Georgia is your main default */
+  /* ... other body styles ... */
+}

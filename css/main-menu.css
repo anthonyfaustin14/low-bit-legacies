@@ -1,0 +1,169 @@
+/* Existing styles for .main-menu, .overlap-group-wrapper, .overlap-group, .title etc. remain the same */
+
+/* In your css/main-menu.css */
+
+.main-menu .title { /* "low-bit legacies" */
+  position: absolute;
+  width: 924px; 
+  top: 124px;   
+  left: 50%;    
+  transform: translateX(-50%); 
+  font-family: 'Kiwi Soda', sans-serif; /* UPDATED to use your defined font name */
+                                        /* 'sans-serif' is a generic fallback */
+  font-weight: 500; /* Keep this if it suits 'Kiwi Soda', or adjust to 'normal' or 400 if needed */
+  color: #4d357bad;
+  font-size: 140px;
+  text-align: center; 
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* ... rest of your main-menu.css content ... */
+/* For example, the rules for .text-wrapper and .div should still use 'Pixel Georgia' */
+.main-menu .text-wrapper { /* "Enter The Rec Room" */
+  /* ... other properties ... */
+  font-family: 'Pixel Georgia', sans-serif; 
+  font-weight: 400;
+  font-style: normal; 
+  /* ... other properties ... */
+}
+
+.main-menu .div { /* "exit" */
+  /* ... other properties ... */
+  font-family: 'Pixel Georgia', sans-serif; 
+  font-weight: 400;
+  font-style: normal; 
+  /* ... other properties ... */
+}
+
+/* ... etc. ... */
+
+/* New style for the wrapper */
+.main-menu .jean-and-link-wrapper {
+  position: absolute;
+  top: 500px; /* Adjust this value to set the vertical position of the whole group */
+  left: 50%;
+  transform: translateX(-50%); /* Centers the wrapper */
+  display: flex;
+  align-items: center; /* Vertically aligns the image and the text link */
+  gap: 15px; /* Adjust space between jean.png and the text link */
+}
+
+/* Modified style for the Jean image */
+.main-menu .jean {
+  /* position: absolute; REMOVED - now positioned by flex wrapper */
+  /* top: 421px; REMOVED */
+  /* left: 563px; REMOVED */
+  width: 37px;
+  height: 57px;
+  object-fit: cover;
+}
+
+/* Styling for the link itself (optional, but good for consistency) */
+.main-menu .enter-rec-room-link {
+  text-decoration: none; /* Removes underline from link */
+}
+
+/* Modified style for the text "Enter The Rec Room" */
+.main-menu .text-wrapper {
+  /* position: absolute; REMOVED - now positioned by flex wrapper */
+  /* top: 439px; REMOVED */
+  /* left: 50%; REMOVED */
+  /* transform: translateX(-50%); REMOVED */
+  font-family: 'Pixel Georgia', sans-serif; 
+  font-weight: 400;
+  font-style: normal; 
+  color: #81af45;
+  font-size: 48px;
+  /* text-align: center; /* Text within this div will be naturally aligned due to its content width */
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* Keep existing styles for .quick-play, .div (exit), .text-wrapper-2, .rico, .cisero, .instructions */
+/* Ensure their 'top' and 'left' values are still correct relative to .overlap-group */
+
+.main-menu .quick-play {
+  position: absolute;
+  top: 542px;
+  /* If this also needs centering: */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  /* text-align: center; */
+  /* Original left was 608px, adjust if centering all items */
+  left: 608px; 
+  font-family: "Pixel Georgia-Regular", Helvetica; 
+  font-weight: 400;
+  color: var(--variable-collection-color-2);
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-menu .div { /* "exit" */
+  position: absolute;
+  top: 743px;   
+  left: 50%;    
+  transform: translateX(-50%); 
+  font-family: 'Pixel Georgia', sans-serif; 
+  font-weight: 400;
+  font-style: normal; 
+  color: #e06262;
+  font-size: 48px;
+  text-align: center; 
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main-menu .text-wrapper-2 { /* "Settings" */
+  position: absolute;
+  width: 319px; 
+  top: 647px;
+  left: 612px;  /* Position unchanged for now */
+  /* If this also needs centering: */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  /* text-align: center; */
+  font-family: "Pixel Georgia-Regular", Helvetica; 
+  font-weight: 400;
+  color: var(--variable-collection-color-4);
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+/* ... (styles for .rico, .cisero, .instructions remain as they were) ... */
+.main-menu .rico {
+  position: absolute;
+  width: 32px;
+  height: 52px;
+  top: 532px;
+  left: 563px;
+  object-fit: cover;
+}
+
+.main-menu .cisero {
+  position: absolute;
+  width: 35px;
+  height: 57px;
+  top: 629px;
+  left: 563px;
+  object-fit: cover;
+}
+
+.main-menu .instructions {
+  position: absolute;
+  top: 339px;
+  left: 244px;
+  font-family: "Pixel Georgia-Regular", Helvetica;
+  font-weight: 400;
+  color: #4d357ba6;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}

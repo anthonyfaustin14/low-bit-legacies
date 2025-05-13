@@ -1,0 +1,67 @@
+.the-end {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.the-end .div-2 {
+  background-color: #000000;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.the-end .text-wrapper-3 { /* "The End" text */
+  position: absolute;
+  width: 372px;
+  top: 451px;
+  left: 534px;
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #ffffff;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 120px;
+}
+
+.the-end .overlap-group-2 { /* Container for the two paragraphs below */
+  position: absolute;
+  width: 786px;
+  height: 218px;
+  top: 627px;
+  left: 327px;
+}
+
+.the-end .p { /* "Press R to Restart History..." paragraph */
+  position: absolute;
+  width: 634px;
+  top: 98px; /* Relative to .overlap-group-2 */
+  left: 76px; /* Relative to .overlap-group-2 */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 120px;
+}
+
+.the-end .text-wrapper-4 { /* "Press E to go back to Main Menu..." paragraph */
+  position: absolute;
+  width: 786px;
+  top: 0;    /* Relative to .overlap-group-2 */
+  left: 0;   /* Relative to .overlap-group-2 */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 120px;
+}

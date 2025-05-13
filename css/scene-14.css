@@ -1,0 +1,233 @@
+.screen-14 { /* UPDATED selector */
+  background-color: #fffbeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen-14 .scene-14 { /* UPDATED selector */
+  background-color: #fffbeb;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.screen-14 .overlap-group-8 { /* UPDATED selector */
+  position: absolute;
+  width: 1263px;
+  height: 806px;
+  top: 0;
+  left: 88px;
+}
+
+.screen-14 .mlk-5 { /* UPDATED selector */
+  position: absolute;
+  width: 164px;
+  height: 165px;
+  top: 253px;
+  left: 568px;
+  object-fit: cover;
+}
+
+.screen-14 .frame-5 { /* UPDATED selector */
+  position: absolute;
+  width: 217px;
+  height: 216px;
+  top: 227px;
+  left: 542px;
+  object-fit: cover;
+}
+
+.screen-14 .rec-room-sign-5 { /* UPDATED selector */
+  position: absolute;
+  width: 660px;
+  height: 110px;
+  top: 82px;
+  left: 299px;
+  object-fit: cover;
+}
+
+.screen-14 .pool-table-5 { /* UPDATED selector */
+  position: absolute;
+  width: 236px;
+  height: 235px;
+  top: 514px;
+  left: 532px;
+  object-fit: cover;
+}
+
+.screen-14 .cisero-article-9 { /* UPDATED selector */
+  position: absolute;
+  width: 162px;
+  height: 219px;
+  top: 226px;
+  left: 852px;
+  object-fit: cover;
+}
+
+.screen-14 .willie-munson-5 { /* UPDATED selector */
+  position: absolute;
+  width: 216px;
+  height: 216px;
+  top: 226px;
+  left: 228px;
+  object-fit: cover;
+}
+
+.screen-14 .water-tank-9 { /* UPDATED selector */
+  position: absolute;
+  width: 78px;
+  height: 221px;
+  top: 507px;
+  left: 924px;
+  object-fit: cover;
+}
+
+.screen-14 .vending-machine-5 { /* UPDATED selector */
+  position: absolute;
+  width: 108px;
+  height: 225px;
+  top: 500px;
+  left: 1048px;
+  object-fit: cover;
+}
+
+.screen-14 .front-door-9 { /* UPDATED selector */
+  position: absolute;
+  width: 122px;
+  height: 238px;
+  top: 488px;
+  left: 106px;
+  object-fit: cover;
+}
+
+.screen-14 .frame-game-5 { /* UPDATED selector */
+  position: absolute;
+  width: 1263px;
+  height: 806px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen-14 .rico-5 { /* UPDATED selector */
+  position: absolute;
+  width: 95px;
+  height: 156px;
+  top: 569px;
+  left: 768px;
+  object-fit: cover;
+}
+
+.screen-14 .stick-5 { /* UPDATED selector */
+  position: absolute;
+  width: 19px;
+  height: 180px;
+  top: 549px;
+  left: 384px;
+  object-fit: cover;
+}
+
+.screen-14 .jean-5 { /* UPDATED selector */
+  position: absolute;
+  width: 119px;
+  height: 183px;
+  top: 544px;
+  left: 383px;
+  object-fit: cover;
+}
+
+.screen-14 .anthonyace-10 { /* UPDATED selector */
+  position: absolute;
+  width: 109px;
+  height: 188px;
+  top: 542px;
+  left: 245px;
+  object-fit: cover;
+}
+
+.screen-14 .text-wrapper-24 { /* Scene indicator "II" */
+  position: absolute;
+  width: 52px;
+  top: 14px;
+  left: 1369px;
+  font-family: "Silkscreen", Helvetica, sans-serif; /* Keeping Silkscreen */
+  font-weight: 400;
+  font-style: normal; /* Ensuring consistency */
+  color: #58bf21;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen-14 .overlap-6 { /* UPDATED selector */
+  position: absolute;
+  width: 1228px;
+  height: 194px;
+  top: 819px;
+  left: 106px;
+  background-color: #fffbeb;
+  border: 4px solid;
+  border-color: #58bf21; /* Note: border color */
+}
+
+.screen-14 .overlap-7 { /* UPDATED selector */
+  position: absolute;
+  width: 1195px;
+  height: 168px;
+  top: 25px; /* Relative to .overlap-6 */
+  left: 16px; /* Relative to .overlap-6 */
+}
+
+.screen-14 .sometimes-it-almost { /* Dialogue paragraph */
+  position: absolute;
+  width: 1195px;
+  top: 39px; /* Relative to .overlap-7 */
+  left: 0;
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #81af45;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen-14 .text-wrapper-25 { /* Next button ">" */
+  position: absolute;
+  width: 49px;
+  top: 113px; /* Relative to .overlap-7 */
+  left: 1146px;
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #81af45;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen-14 .text-wrapper-26 { /* Speaker name */
+  position: absolute;
+  width: 519px;
+  top: 0; /* Relative to .overlap-7 */
+  left: 49px;
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #81af45;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen-14 .jean-icon-2 { /* UPDATED selector */
+  position: absolute;
+  width: 34px;
+  height: 41px;
+  top: 9px; /* Relative to .overlap-6 (since it's a direct child) */
+  left: 12px; /* Relative to .overlap-6 */
+}

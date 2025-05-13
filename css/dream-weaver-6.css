@@ -1,0 +1,181 @@
+.dream-screen { /* UPDATED selector */
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dream-screen .dream-scene-6 { /* UPDATED selector */
+  background-color: #ffffff; /* Or #fffbeb if that's your typical canvas */
+  width: 1440px;
+  height: 1024px;
+  /* position: relative; /* Added, as child elements are absolutely positioned */
+}
+
+.dream-screen .overlap-group-5 {
+  position: relative;
+  width: 1435px;
+  height: 1024px;
+  left: 5px;
+}
+
+.dream-screen .texture-5 {
+  position: absolute;
+  width: 1435px;
+  height: 1015px;
+  top: 9px;
+  left: 0;
+  object-fit: cover;
+}
+
+.dream-screen .dithered-image-5 { /* Dialogue box background image */
+  position: absolute;
+  width: 1227px;
+  height: 196px;
+  top: 818px;
+  left: 101px;
+  object-fit: cover;
+}
+
+.dream-screen .i-learned-this-game { /* Dialogue text */
+  position: absolute;
+  width: 1195px;
+  top: 883px; /* Position over .dithered-image-5 */
+  left: 117px; /* Position over .dithered-image-5 */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #969696;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 36px; /* Kept existing line-height */
+}
+
+.dream-screen .text-wrapper-9 { /* Next button: ">" */
+  position: absolute;
+  width: 49px;
+  top: 957px; /* Position over .dithered-image-5 */
+  left: 1263px; /* Position over .dithered-image-5 */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #969696;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  /* cursor: pointer; is handled by inline style in HTML */
+}
+
+.dream-screen .text-wrapper-10 { /* Speaker name: "Ghost of Cisero Murphy:" */
+  position: absolute;
+  width: 519px;
+  top: 844px; /* Position over .dithered-image-5 */
+  left: 166px; /* Position over .dithered-image-5 */
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #969696;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.dream-screen .dither-background-5 {
+  position: absolute;
+  width: 1254px;
+  height: 806px;
+  top: 0;
+  left: 88px;
+  object-fit: cover;
+}
+
+.dream-screen .cisero-article-5 {
+  position: absolute;
+  width: 162px;
+  height: 219px;
+  top: 226px;
+  left: 935px;
+  object-fit: cover;
+}
+
+.dream-screen .dream-weaver-sign-5 {
+  position: absolute;
+  width: 612px;
+  height: 102px;
+  top: 83px;
+  left: 377px;
+  object-fit: cover;
+}
+
+.dream-screen .water-tank-5 {
+  position: absolute;
+  width: 78px;
+  height: 221px;
+  top: 502px;
+  left: 945px;
+  object-fit: cover;
+}
+
+.dream-screen .vending-dithered-5 {
+  position: absolute;
+  width: 108px;
+  height: 226px;
+  top: 497px;
+  left: 1068px;
+  object-fit: cover;
+}
+
+.dream-screen .front-door-5 {
+  position: absolute;
+  width: 123px;
+  height: 241px;
+  top: 482px;
+  left: 198px;
+  object-fit: cover;
+}
+
+.dream-screen .anthonyace-7 { /* This is the full body Ace image */
+  position: absolute;
+  width: 109px;
+  height: 189px;
+  top: 538px;
+  left: 423px;
+  object-fit: cover;
+}
+
+.dream-screen .cisero-6 { /* This is the full body Cisero image */
+  position: absolute;
+  width: 119px;
+  height: 184px;
+  top: 514px;
+  left: 807px;
+  object-fit: cover;
+}
+
+.dream-screen .cisero-7 { /* This is the Cisero icon by the dialogue */
+  position: absolute;
+  width: 39px;
+  height: 42px;
+  top: 831px; /* Position near speaker name, over .dithered-image-5 */
+  left: 115px; /* Position near speaker name, over .dithered-image-5 */
+}
+
+.dream-screen .dithered-table-5 {
+  position: absolute;
+  width: 236px;
+  height: 236px;
+  top: 513px;
+  left: 572px;
+  object-fit: cover;
+}
+
+.dream-screen .mlk-dithered-5 {
+  position: absolute;
+  width: 224px;
+  height: 222px;
+  top: 216px;
+  left: 570px;
+  object-fit: cover;
+}

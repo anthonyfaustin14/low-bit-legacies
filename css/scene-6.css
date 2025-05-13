@@ -1,0 +1,233 @@
+.screen-6 {
+  background-color: #fffbeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen-6 .scene-6 {
+  background-color: #fffbeb;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.screen-6 .overlap-group-7 {
+  position: absolute;
+  width: 1263px;
+  height: 806px;
+  top: 0;
+  left: 88px;
+}
+
+.screen-6 .frame-6 {
+  position: absolute;
+  width: 217px;
+  height: 216px;
+  top: 227px;
+  left: 542px;
+  object-fit: cover;
+}
+
+.screen-6 .mlk-6 {
+  position: absolute;
+  width: 162px;
+  height: 163px;
+  top: 254px;
+  left: 570px;
+  object-fit: cover;
+}
+
+.screen-6 .rec-room-sign-6 {
+  position: absolute;
+  width: 660px;
+  height: 110px;
+  top: 82px;
+  left: 299px;
+  object-fit: cover;
+}
+
+.screen-6 .pool-table-6 {
+  position: absolute;
+  width: 236px;
+  height: 235px;
+  top: 514px;
+  left: 532px;
+  object-fit: cover;
+}
+
+.screen-6 .cisero-article-6 {
+  position: absolute;
+  width: 162px;
+  height: 219px;
+  top: 226px;
+  left: 852px;
+  object-fit: cover;
+}
+
+.screen-6 .willie-munson-6 {
+  position: absolute;
+  width: 216px;
+  height: 216px;
+  top: 226px;
+  left: 228px;
+  object-fit: cover;
+}
+
+.screen-6 .water-tank-6 {
+  position: absolute;
+  width: 78px;
+  height: 221px;
+  top: 507px;
+  left: 924px;
+  object-fit: cover;
+}
+
+.screen-6 .vending-machine-6 {
+  position: absolute;
+  width: 108px;
+  height: 225px;
+  top: 500px;
+  left: 1048px;
+  object-fit: cover;
+}
+
+.screen-6 .front-door-6 {
+  position: absolute;
+  width: 122px;
+  height: 238px;
+  top: 488px;
+  left: 106px;
+  object-fit: cover;
+}
+
+.screen-6 .frame-game-6 {
+  position: absolute;
+  width: 1263px;
+  height: 806px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.screen-6 .rico-6 {
+  position: absolute;
+  width: 95px;
+  height: 156px;
+  top: 570px;
+  left: 947px;
+  object-fit: cover;
+}
+
+.screen-6 .stick-6 {
+  position: absolute;
+  width: 19px;
+  height: 180px;
+  top: 549px;
+  left: 482px;
+  object-fit: cover;
+}
+
+.screen-6 .jean-7 {
+  position: absolute;
+  width: 119px;
+  height: 183px;
+  top: 544px;
+  left: 383px;
+  object-fit: cover;
+}
+
+.screen-6 .anthonyace-5 {
+  position: absolute;
+  width: 109px;
+  height: 188px;
+  top: 542px;
+  left: 245px;
+  object-fit: cover;
+}
+
+.screen-6 .text-wrapper-16 {
+  position: absolute;
+  width: 52px;
+  top: 14px;
+  left: 1369px;
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #58bf21;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen-6 .overlap-5 {
+  position: absolute;
+  width: 1228px;
+  height: 204px;
+  top: 819px;
+  left: 106px;
+}
+
+.screen-6 .rectangle-2 {
+  position: absolute;
+  width: 1228px;
+  height: 194px;
+  top: 0;
+  left: 0;
+  background-color: #fffbeb;
+  border: 4px solid;
+  border-color: #81af45;
+}
+
+.screen-6 .text-wrapper-17 { /* This styles <p class="text-wrapper-17"> */
+  position: absolute;
+  width: 1195px;
+  top: 75px;
+  left: 16px;
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #81af45;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen-6 .text-wrapper-18 {
+  position: absolute;
+  width: 49px;
+  top: 138px;
+  left: 1162px;
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #81af45;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.screen-6 .text-wrapper-19 {
+  position: absolute;
+  width: 519px;
+  top: 25px;
+  left: 65px;
+  font-family: 'Pixel Georgia', sans-serif; /* UPDATED */
+  font-weight: 400;
+  font-style: normal; /* ADDED for consistency */
+  color: #81af45;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen-6 .jean-icon-2 {
+  position: absolute;
+  width: 34px;
+  height: 41px;
+  top: 13px;
+  left: 16px;
+}
